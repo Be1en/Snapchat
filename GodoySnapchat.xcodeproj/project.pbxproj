@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		FA12FE762BFBFB4300BDB032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FE752BFBFB4300BDB032 /* AppDelegate.swift */; };
 		FA12FE782BFBFB4300BDB032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FE772BFBFB4300BDB032 /* SceneDelegate.swift */; };
-		FA12FE7A2BFBFB4300BDB032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FE792BFBFB4300BDB032 /* ViewController.swift */; };
 		FA12FE7D2BFBFB4300BDB032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12FE7B2BFBFB4300BDB032 /* Main.storyboard */; };
 		FA12FE7F2BFBFB4400BDB032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12FE7E2BFBFB4400BDB032 /* Assets.xcassets */; };
 		FA12FE822BFBFB4400BDB032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12FE802BFBFB4400BDB032 /* LaunchScreen.storyboard */; };
 		FA12FE8D2BFBFB4400BDB032 /* GodoySnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FE8C2BFBFB4400BDB032 /* GodoySnapchatTests.swift */; };
 		FA12FE972BFBFB4400BDB032 /* GodoySnapchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FE962BFBFB4400BDB032 /* GodoySnapchatUITests.swift */; };
 		FA12FE992BFBFB4400BDB032 /* GodoySnapchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FE982BFBFB4400BDB032 /* GodoySnapchatUITestsLaunchTests.swift */; };
+		FA12FEA62BFBFD6B00BDB032 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA12FEA52BFBFD6B00BDB032 /* GoogleService-Info.plist */; };
+		FA1370212BFC08AA00D6D1C2 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1370202BFC08AA00D6D1C2 /* iniciarSesionViewController.swift */; };
+		FA1370242BFC0BD700D6D1C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FA1370232BFC0BD700D6D1C2 /* FirebaseAnalytics */; };
+		FA1370262BFC0BD700D6D1C2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FA1370252BFC0BD700D6D1C2 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FA1370282BFC0BD700D6D1C2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA1370272BFC0BD700D6D1C2 /* FirebaseAuth */; };
+		FA13702A2BFC0BD700D6D1C2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FA1370292BFC0BD700D6D1C2 /* FirebaseDatabase */; };
+		FA13702C2BFC0BD700D6D1C2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FA13702B2BFC0BD700D6D1C2 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		FA12FE722BFBFB4300BDB032 /* GodoySnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodoySnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA12FE752BFBFB4300BDB032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA12FE772BFBFB4300BDB032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA12FE792BFBFB4300BDB032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA12FE7C2BFBFB4300BDB032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA12FE7E2BFBFB4400BDB032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA12FE812BFBFB4400BDB032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,8 @@
 		FA12FE922BFBFB4400BDB032 /* GodoySnapchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodoySnapchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA12FE962BFBFB4400BDB032 /* GodoySnapchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySnapchatUITests.swift; sourceTree = "<group>"; };
 		FA12FE982BFBFB4400BDB032 /* GodoySnapchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySnapchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA12FEA52BFBFD6B00BDB032 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA1370202BFC08AA00D6D1C2 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1370242BFC0BD700D6D1C2 /* FirebaseAnalytics in Frameworks */,
+				FA1370282BFC0BD700D6D1C2 /* FirebaseAuth in Frameworks */,
+				FA13702A2BFC0BD700D6D1C2 /* FirebaseDatabase in Frameworks */,
+				FA13702C2BFC0BD700D6D1C2 /* FirebaseStorage in Frameworks */,
+				FA1370262BFC0BD700D6D1C2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +111,10 @@
 		FA12FE742BFBFB4300BDB032 /* GodoySnapchat */ = {
 			isa = PBXGroup;
 			children = (
+				FA12FEA52BFBFD6B00BDB032 /* GoogleService-Info.plist */,
 				FA12FE752BFBFB4300BDB032 /* AppDelegate.swift */,
+				FA1370202BFC08AA00D6D1C2 /* iniciarSesionViewController.swift */,
 				FA12FE772BFBFB4300BDB032 /* SceneDelegate.swift */,
-				FA12FE792BFBFB4300BDB032 /* ViewController.swift */,
 				FA12FE7B2BFBFB4300BDB032 /* Main.storyboard */,
 				FA12FE7E2BFBFB4400BDB032 /* Assets.xcassets */,
 				FA12FE802BFBFB4400BDB032 /* LaunchScreen.storyboard */,
@@ -143,6 +156,13 @@
 			dependencies = (
 			);
 			name = GodoySnapchat;
+			packageProductDependencies = (
+				FA1370232BFC0BD700D6D1C2 /* FirebaseAnalytics */,
+				FA1370252BFC0BD700D6D1C2 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FA1370272BFC0BD700D6D1C2 /* FirebaseAuth */,
+				FA1370292BFC0BD700D6D1C2 /* FirebaseDatabase */,
+				FA13702B2BFC0BD700D6D1C2 /* FirebaseStorage */,
+			);
 			productName = GodoySnapchat;
 			productReference = FA12FE722BFBFB4300BDB032 /* GodoySnapchat.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = FA12FE692BFBFB4300BDB032;
+			packageReferences = (
+				FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FA12FE732BFBFB4300BDB032 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA12FE822BFBFB4400BDB032 /* LaunchScreen.storyboard in Resources */,
+				FA12FEA62BFBFD6B00BDB032 /* GoogleService-Info.plist in Resources */,
 				FA12FE7F2BFBFB4400BDB032 /* Assets.xcassets in Resources */,
 				FA12FE7D2BFBFB4300BDB032 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA12FE7A2BFBFB4300BDB032 /* ViewController.swift in Sources */,
+				FA1370212BFC08AA00D6D1C2 /* iniciarSesionViewController.swift in Sources */,
 				FA12FE762BFBFB4300BDB032 /* AppDelegate.swift in Sources */,
 				FA12FE782BFBFB4300BDB032 /* SceneDelegate.swift in Sources */,
 			);
@@ -596,6 +620,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA1370232BFC0BD700D6D1C2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FA1370252BFC0BD700D6D1C2 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FA1370272BFC0BD700D6D1C2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FA1370292BFC0BD700D6D1C2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FA13702B2BFC0BD700D6D1C2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1370222BFC0BD700D6D1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA12FE6A2BFBFB4300BDB032 /* Project object */;
 }
